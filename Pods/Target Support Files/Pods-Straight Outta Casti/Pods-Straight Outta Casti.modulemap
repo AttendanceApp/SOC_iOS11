@@ -1,0 +1,6 @@
+framework module Pods_Straight_Outta_Casti {
+  umbrella header "Pods-Straight Outta Casti-umbrella.h"
+
+  export *
+  module * { export * }
+}

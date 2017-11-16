@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126939BA1E6E10EF00928929 /* Thumba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126939B91E6E10EF00928929 /* Thumba.swift */; };
+		126939BC1E6E127200928929 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126939BB1E6E127200928929 /* Utils.swift */; };
+		4717EF451E56607600C1144F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4717EF441E56607600C1144F /* AppDelegate.swift */; };
+		4717EF4A1E56607600C1144F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4717EF481E56607600C1144F /* Main.storyboard */; };
+		4717EF4C1E56607600C1144F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4717EF4B1E56607600C1144F /* Assets.xcassets */; };
+		4717EF4F1E56607600C1144F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4717EF4D1E56607600C1144F /* LaunchScreen.storyboard */; };
+		4717EF5A1E56607600C1144F /* Straight_Outta_CastiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4717EF591E56607600C1144F /* Straight_Outta_CastiTests.swift */; };
+		4717EF651E56607600C1144F /* Straight_Outta_CastiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4717EF641E56607600C1144F /* Straight_Outta_CastiUITests.swift */; };
+		4717EF731E56609300C1144F /* Geofence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4717EF721E56609300C1144F /* Geofence.swift */; };
+		4725E9591E97EA4900935F0D /* RCValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4725E9581E97EA4900935F0D /* RCValues.swift */; };
+		474B53331E8D801000A95F89 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F0F2FD1E6880E50035B907 /* Account.swift */; };
+		47870F6E1E6E10B000AA5375 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47870F6D1E6E10B000AA5375 /* StateController.swift */; };
+		478796D51E770C59001EC523 /* OutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478796D41E770C59001EC523 /* OutViewController.swift */; };
+		47A614201F4E32DA006AFFF8 /* UnwindCreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A6141F1F4E32DA006AFFF8 /* UnwindCreditsViewController.swift */; };
+		47B68E961EAA589F00E73671 /* RemoteDisabledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B68E951EAA589F00E73671 /* RemoteDisabledViewController.swift */; };
+		47B68E981EAA5C2500E73671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47B68E971EAA5C2500E73671 /* GoogleService-Info.plist */; };
+		47F0F3001E6882AB0035B907 /* AccountStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F0F2FF1E6882AB0035B907 /* AccountStorage.swift */; };
+		47F0F3021E6884290035B907 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F0F3011E6884290035B907 /* RegisterViewController.swift */; };
+		47FBB4C41E57AAFA0070C504 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBB4C31E57AAFA0070C504 /* Constants.swift */; };
+		78C036221E687DA300FD3BE9 /* GoogleFormsConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C036211E687DA300FD3BE9 /* GoogleFormsConnection.swift */; };
+		E86A8D0CB33101AB400A5CBE /* Pods_Straight_Outta_Casti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7B6B423C7C17E423E217FE /* Pods_Straight_Outta_Casti.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4717EF561E56607600C1144F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4717EF391E56607600C1144F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4717EF401E56607600C1144F;
+			remoteInfo = "Straight Outta Casti";
+		};
+		4717EF611E56607600C1144F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4717EF391E56607600C1144F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4717EF401E56607600C1144F;
+			remoteInfo = "Straight Outta Casti";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08DE26A24A0252BCC400D518 /* Pods-Straight Outta Casti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Straight Outta Casti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Straight Outta Casti/Pods-Straight Outta Casti.debug.xcconfig"; sourceTree = "<group>"; };
+		126939B91E6E10EF00928929 /* Thumba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumba.swift; sourceTree = "<group>"; };
+		126939BB1E6E127200928929 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1F7B6B423C7C17E423E217FE /* Pods_Straight_Outta_Casti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Straight_Outta_Casti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4717EF411E56607600C1144F /* Straight Outta Casti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Straight Outta Casti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4717EF441E56607600C1144F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4717EF491E56607600C1144F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4717EF4B1E56607600C1144F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4717EF4E1E56607600C1144F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4717EF501E56607600C1144F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4717EF551E56607600C1144F /* Straight Outta CastiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Straight Outta CastiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4717EF591E56607600C1144F /* Straight_Outta_CastiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Straight_Outta_CastiTests.swift; sourceTree = "<group>"; };
+		4717EF5B1E56607600C1144F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4717EF601E56607600C1144F /* Straight Outta CastiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Straight Outta CastiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4717EF641E56607600C1144F /* Straight_Outta_CastiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Straight_Outta_CastiUITests.swift; sourceTree = "<group>"; };
+		4717EF661E56607600C1144F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4717EF721E56609300C1144F /* Geofence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geofence.swift; sourceTree = "<group>"; };
+		4725E9581E97EA4900935F0D /* RCValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCValues.swift; sourceTree = "<group>"; };
+		47870F6D1E6E10B000AA5375 /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		478796D41E770C59001EC523 /* OutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutViewController.swift; sourceTree = "<group>"; };
+		47A6141F1F4E32DA006AFFF8 /* UnwindCreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindCreditsViewController.swift; sourceTree = "<group>"; };
+		47B68E951EAA589F00E73671 /* RemoteDisabledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDisabledViewController.swift; sourceTree = "<group>"; };
+		47B68E971EAA5C2500E73671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47F0F2FD1E6880E50035B907 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		47F0F2FF1E6882AB0035B907 /* AccountStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountStorage.swift; sourceTree = "<group>"; };
+		47F0F3011E6884290035B907 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		47FB95D61E97E70F00D50FAD /* Straight Outta Casti.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Straight Outta Casti.entitlements"; sourceTree = "<group>"; };
+		47FBB4C31E57AAFA0070C504 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		78C036211E687DA300FD3BE9 /* GoogleFormsConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleFormsConnection.swift; sourceTree = "<group>"; };
+		B6C4E47B17B2775F65317A82 /* Pods-Straight Outta Casti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Straight Outta Casti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Straight Outta Casti/Pods-Straight Outta Casti.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4717EF3E1E56607600C1144F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86A8D0CB33101AB400A5CBE /* Pods_Straight_Outta_Casti.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4717EF521E56607600C1144F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4717EF5D1E56607600C1144F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20151B639B745206AA1940CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7B6B423C7C17E423E217FE /* Pods_Straight_Outta_Casti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		236C05B4487B4C2DEA66C2B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08DE26A24A0252BCC400D518 /* Pods-Straight Outta Casti.debug.xcconfig */,
+				B6C4E47B17B2775F65317A82 /* Pods-Straight Outta Casti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4717EF381E56607600C1144F = {
+			isa = PBXGroup;
+			children = (
+				4717EF431E56607600C1144F /* Straight Outta Casti */,
+				4717EF581E56607600C1144F /* Straight Outta CastiTests */,
+				4717EF631E56607600C1144F /* Straight Outta CastiUITests */,
+				4717EF421E56607600C1144F /* Products */,
+				236C05B4487B4C2DEA66C2B2 /* Pods */,
+				20151B639B745206AA1940CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4717EF421E56607600C1144F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4717EF411E56607600C1144F /* Straight Outta Casti.app */,
+				4717EF551E56607600C1144F /* Straight Outta CastiTests.xctest */,
+				4717EF601E56607600C1144F /* Straight Outta CastiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4717EF431E56607600C1144F /* Straight Outta Casti */ = {
+			isa = PBXGroup;
+			children = (
+				47FB95D61E97E70F00D50FAD /* Straight Outta Casti.entitlements */,
+				4717EF441E56607600C1144F /* AppDelegate.swift */,
+				47F0F3011E6884290035B907 /* RegisterViewController.swift */,
+				478796D41E770C59001EC523 /* OutViewController.swift */,
+				47B68E951EAA589F00E73671 /* RemoteDisabledViewController.swift */,
+				47FBB4C31E57AAFA0070C504 /* Constants.swift */,
+				78C036211E687DA300FD3BE9 /* GoogleFormsConnection.swift */,
+				126939B91E6E10EF00928929 /* Thumba.swift */,
+				126939BB1E6E127200928929 /* Utils.swift */,
+				4717EF721E56609300C1144F /* Geofence.swift */,
+				47F0F2FD1E6880E50035B907 /* Account.swift */,
+				47F0F2FF1E6882AB0035B907 /* AccountStorage.swift */,
+				47870F6D1E6E10B000AA5375 /* StateController.swift */,
+				4725E9581E97EA4900935F0D /* RCValues.swift */,
+				4717EF481E56607600C1144F /* Main.storyboard */,
+				47A6141F1F4E32DA006AFFF8 /* UnwindCreditsViewController.swift */,
+				4717EF4B1E56607600C1144F /* Assets.xcassets */,
+				4717EF4D1E56607600C1144F /* LaunchScreen.storyboard */,
+				4717EF501E56607600C1144F /* Info.plist */,
+				47B68E971EAA5C2500E73671 /* GoogleService-Info.plist */,
+			);
+			path = "Straight Outta Casti";
+			sourceTree = "<group>";
+		};
+		4717EF581E56607600C1144F /* Straight Outta CastiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4717EF591E56607600C1144F /* Straight_Outta_CastiTests.swift */,
+				4717EF5B1E56607600C1144F /* Info.plist */,
+			);
+			path = "Straight Outta CastiTests";
+			sourceTree = "<group>";
+		};
+		4717EF631E56607600C1144F /* Straight Outta CastiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4717EF641E56607600C1144F /* Straight_Outta_CastiUITests.swift */,
+				4717EF661E56607600C1144F /* Info.plist */,
+			);
+			path = "Straight Outta CastiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4717EF401E56607600C1144F /* Straight Outta Casti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4717EF691E56607600C1144F /* Build configuration list for PBXNativeTarget "Straight Outta Casti" */;
+			buildPhases = (
+				07B0A32DAB41A324361CA584 /* [CP] Check Pods Manifest.lock */,
+				4717EF3D1E56607600C1144F /* Sources */,
+				4717EF3E1E56607600C1144F /* Frameworks */,
+				4717EF3F1E56607600C1144F /* Resources */,
+				ADE1010950833634D5871536 /* [CP] Embed Pods Frameworks */,
+				C7538815DDA7FA842ABF68AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Straight Outta Casti";
+			productName = "Straight Outta Casti";
+			productReference = 4717EF411E56607600C1144F /* Straight Outta Casti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4717EF541E56607600C1144F /* Straight Outta CastiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4717EF6C1E56607600C1144F /* Build configuration list for PBXNativeTarget "Straight Outta CastiTests" */;
+			buildPhases = (
+				4717EF511E56607600C1144F /* Sources */,
+				4717EF521E56607600C1144F /* Frameworks */,
+				4717EF531E56607600C1144F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4717EF571E56607600C1144F /* PBXTargetDependency */,
+			);
+			name = "Straight Outta CastiTests";
+			productName = "Straight Outta CastiTests";
+			productReference = 4717EF551E56607600C1144F /* Straight Outta CastiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4717EF5F1E56607600C1144F /* Straight Outta CastiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4717EF6F1E56607600C1144F /* Build configuration list for PBXNativeTarget "Straight Outta CastiUITests" */;
+			buildPhases = (
+				4717EF5C1E56607600C1144F /* Sources */,
+				4717EF5D1E56607600C1144F /* Frameworks */,
+				4717EF5E1E56607600C1144F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4717EF621E56607600C1144F /* PBXTargetDependency */,
+			);
+			name = "Straight Outta CastiUITests";
+			productName = "Straight Outta CastiUITests";
+			productReference = 4717EF601E56607600C1144F /* Straight Outta CastiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4717EF391E56607600C1144F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Attendance App";
+				TargetAttributes = {
+					4717EF401E56607600C1144F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 33MP3X399K;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					4717EF541E56607600C1144F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UDD5K7FX5V;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4717EF401E56607600C1144F;
+					};
+					4717EF5F1E56607600C1144F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UDD5K7FX5V;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4717EF401E56607600C1144F;
+					};
+				};
+			};
+			buildConfigurationList = 4717EF3C1E56607600C1144F /* Build configuration list for PBXProject "Straight Outta Casti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4717EF381E56607600C1144F;
+			productRefGroup = 4717EF421E56607600C1144F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4717EF401E56607600C1144F /* Straight Outta Casti */,
+				4717EF541E56607600C1144F /* Straight Outta CastiTests */,
+				4717EF5F1E56607600C1144F /* Straight Outta CastiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4717EF3F1E56607600C1144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4717EF4F1E56607600C1144F /* LaunchScreen.storyboard in Resources */,
+				47B68E981EAA5C2500E73671 /* GoogleService-Info.plist in Resources */,
+				4717EF4C1E56607600C1144F /* Assets.xcassets in Resources */,
+				4717EF4A1E56607600C1144F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4717EF531E56607600C1144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4717EF5E1E56607600C1144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07B0A32DAB41A324361CA584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE1010950833634D5871536 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Straight Outta Casti/Pods-Straight Outta Casti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7538815DDA7FA842ABF68AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Straight Outta Casti/Pods-Straight Outta Casti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4717EF3D1E56607600C1144F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A614201F4E32DA006AFFF8 /* UnwindCreditsViewController.swift in Sources */,
+				474B53331E8D801000A95F89 /* Account.swift in Sources */,
+				4717EF731E56609300C1144F /* Geofence.swift in Sources */,
+				4725E9591E97EA4900935F0D /* RCValues.swift in Sources */,
+				47F0F3021E6884290035B907 /* RegisterViewController.swift in Sources */,
+				478796D51E770C59001EC523 /* OutViewController.swift in Sources */,
+				47F0F3001E6882AB0035B907 /* AccountStorage.swift in Sources */,
+				47870F6E1E6E10B000AA5375 /* StateController.swift in Sources */,
+				47B68E961EAA589F00E73671 /* RemoteDisabledViewController.swift in Sources */,
+				78C036221E687DA300FD3BE9 /* GoogleFormsConnection.swift in Sources */,
+				126939BA1E6E10EF00928929 /* Thumba.swift in Sources */,
+				126939BC1E6E127200928929 /* Utils.swift in Sources */,
+				4717EF451E56607600C1144F /* AppDelegate.swift in Sources */,
+				47FBB4C41E57AAFA0070C504 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4717EF511E56607600C1144F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4717EF5A1E56607600C1144F /* Straight_Outta_CastiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4717EF5C1E56607600C1144F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4717EF651E56607600C1144F /* Straight_Outta_CastiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4717EF571E56607600C1144F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4717EF401E56607600C1144F /* Straight Outta Casti */;
+			targetProxy = 4717EF561E56607600C1144F /* PBXContainerItemProxy */;
+		};
+		4717EF621E56607600C1144F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4717EF401E56607600C1144F /* Straight Outta Casti */;
+			targetProxy = 4717EF611E56607600C1144F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4717EF481E56607600C1144F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4717EF491E56607600C1144F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4717EF4D1E56607600C1144F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4717EF4E1E56607600C1144F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4717EF671E56607600C1144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4717EF681E56607600C1144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4717EF6A1E56607600C1144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DE26A24A0252BCC400D518 /* Pods-Straight Outta Casti.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Straight Outta Casti/Straight Outta Casti.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33MP3X399K;
+				INFOPLIST_FILE = "Straight Outta Casti/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = attendance.StraightOuttaCasti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4717EF6B1E56607600C1144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C4E47B17B2775F65317A82 /* Pods-Straight Outta Casti.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Straight Outta Casti/Straight Outta Casti.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33MP3X399K;
+				INFOPLIST_FILE = "Straight Outta Casti/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = attendance.StraightOuttaCasti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4717EF6D1E56607600C1144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UDD5K7FX5V;
+				INFOPLIST_FILE = "Straight Outta CastiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Straight-Outta-CastiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Straight Outta Casti.app/Straight Outta Casti";
+			};
+			name = Debug;
+		};
+		4717EF6E1E56607600C1144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UDD5K7FX5V;
+				INFOPLIST_FILE = "Straight Outta CastiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Straight-Outta-CastiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Straight Outta Casti.app/Straight Outta Casti";
+			};
+			name = Release;
+		};
+		4717EF701E56607600C1144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UDD5K7FX5V;
+				INFOPLIST_FILE = "Straight Outta CastiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Straight-Outta-CastiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Straight Outta Casti";
+			};
+			name = Debug;
+		};
+		4717EF711E56607600C1144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UDD5K7FX5V;
+				INFOPLIST_FILE = "Straight Outta CastiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Straight-Outta-CastiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Straight Outta Casti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4717EF3C1E56607600C1144F /* Build configuration list for PBXProject "Straight Outta Casti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4717EF671E56607600C1144F /* Debug */,
+				4717EF681E56607600C1144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4717EF691E56607600C1144F /* Build configuration list for PBXNativeTarget "Straight Outta Casti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4717EF6A1E56607600C1144F /* Debug */,
+				4717EF6B1E56607600C1144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4717EF6C1E56607600C1144F /* Build configuration list for PBXNativeTarget "Straight Outta CastiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4717EF6D1E56607600C1144F /* Debug */,
+				4717EF6E1E56607600C1144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4717EF6F1E56607600C1144F /* Build configuration list for PBXNativeTarget "Straight Outta CastiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4717EF701E56607600C1144F /* Debug */,
+				4717EF711E56607600C1144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4717EF391E56607600C1144F /* Project object */;
+}
