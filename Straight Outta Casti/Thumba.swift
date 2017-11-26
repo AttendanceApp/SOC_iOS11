@@ -56,27 +56,27 @@ class Thumba {
     
     private func loginProcess(policy: LAPolicy, firstName: String, lastName: String, reason: String, teacher: Bool) -> Bool {
         var successful: Bool = false
-        var done: Bool = false
+        let group = DispatchGroup()
+        group.enter()
         context?.evaluatePolicy(policy, localizedReason: kMsgShowReason, reply: {
             (success, error) in DispatchQueue.main.async {
                 UIView.animate(withDuration: 0.5, animations: {})
             }
             guard success else {
-                done = true
-                guard let error = error else {
+                guard let _ = error else {
+                    group.leave()
                     return
                 }
+                group.leave()
                 return
             }
             successful = success
             GoogleFormsConnection.doMyBidNiss(firstName: firstName, lastName: lastName, reason: reason, teacher: teacher)
             self.context?.invalidate()
-            done = true
-            print("done is true!")
+            group.leave()
         })
         //wait for async to finish before returning whether signin was successful
-        while !done {
-        }
+        group.wait()
         print("Returning now that we are", successful)
         return successful
     }
